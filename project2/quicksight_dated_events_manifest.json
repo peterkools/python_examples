@@ -1,0 +1,12 @@
+{
+    "fileLocations": [
+        {
+            "URIPrefixes": [
+                "https://s3.amazonaws.com/sp-global-events/dated-events/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "JSON",
+    }
+}
