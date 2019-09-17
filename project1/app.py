@@ -30,13 +30,14 @@ app = Flask(__name__)
 # The specification is inconsistent with regard to the number of allowed
 # path segments so I've chosen to support the maximum discussed by in
 # spec #4 rather than the arbitrary number discussed in spec #2.
-@app.route("/api/<p1>/<p2>/<p3>/<p4>/<p5>/<p6>/", methods=['GET'])
-@app.route("/api/<p1>/<p2>/<p3>/<p4>/<p5>/", methods=['GET'])
-@app.route("/api/<p1>/<p2>/<p3>/<p4>/", methods=['GET'])
-@app.route("/api/<p1>/<p2>/<p3>/", methods=['GET'])
-@app.route("/api/<p1>/<p2>/", methods=['GET'])
-@app.route("/api/<p1>/", methods=['GET'])
-def api_record(p1, p2=None, p3=None, p4=None, p5=None, p6=None):
+# @app.route("/api/<p1>/<p2>/<p3>/<p4>/<p5>/<p6>/", methods=['GET'])
+# @app.route("/api/<p1>/<p2>/<p3>/<p4>/<p5>/", methods=['GET'])
+# @app.route("/api/<p1>/<p2>/<p3>/<p4>/", methods=['GET'])
+# @app.route("/api/<p1>/<p2>/<p3>/", methods=['GET'])
+# @app.route("/api/<p1>/<p2>/", methods=['GET'])
+# @app.route("/api/<p1>/", methods=['GET'])
+@app.route('/api/<path:path>')
+def api_record(path):
     """
         Tally the API request in redis.
 
