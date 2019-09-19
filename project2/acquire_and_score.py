@@ -20,7 +20,7 @@ AWS_S3_EVENT_PATH = 'dated-events'
 AWS_S3_TSV_PATH = 'tsv-events'
 
 SPG_MODEL_URL = 'https://app-models.dominodatalab.com:443/models/5bd0856346e0fb0008d06d74/latest/model'
-SPG_AUTH = '58BTaPnrmzIDtI0VrVVz6v6qKOu8ABmYZzDGhTmaoW7xgddOhx9ISGdAndVVdziE'
+SPG_AUTH = 'XXXX'
 
 GDELT_LATEST = 'http://data.gdeltproject.org/gdeltv2/lastupdate.txt'
 

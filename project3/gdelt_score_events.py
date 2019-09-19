@@ -20,9 +20,9 @@ AWS_PROFILE = 'sp_global'
 AWS_REGION = 'us-east-1'
 
 # RDS credentials should be in a secret instead of here.
-RDS_HOST = 'pwk1.carmnypphv56.us-east-1.rds.amazonaws.com'
-RDS_USER = 'dbroot'
-RDS_PASS = 'PYB42tPWRBNc4Afy'
+RDS_HOST = 'XXXX'
+RDS_USER = 'XXXX'
+RDS_PASS = 'XXXX'
 RDS_DB = 'gdelt'
 
 # RDS_HOST = 'localhost'
@@ -34,7 +34,7 @@ AWS_SQS_GDELT_SCORE = 'gdelt_score'
 
 # API credentials should be in a secret instead of here
 SPG_MODEL_URL = 'https://app-models.dominodatalab.com:443/models/5bd0856346e0fb0008d06d74/latest/model'  # noqa: E501
-SPG_AUTH = '58BTaPnrmzIDtI0VrVVz6v6qKOu8ABmYZzDGhTmaoW7xgddOhx9ISGdAndVVdziE'
+SPG_AUTH = 'XXXX'
 
 
 def format_date(d):
