@@ -1,4 +1,4 @@
-### Project2
+### Project3
 
 This project acquires the newest data from GDELT (a news categorization service), scores it using a public
 scoring API from S&P Global and emits statistics about the scoring results. This approach uses AWS Lambda,
